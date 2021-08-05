@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -17,8 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <h3 className={styles.heading}>Welcome</h3>
         <p className={styles.subHeading}>Login Or Signup to use My Book Journal</p>
-        <hr></hr>
-        <div className={styles.login}>
+        <div className={`${styles.login} fadeInUp animated`}>
           <section className={styles.formLeft}/>
           <section className={styles.formRight}>
             <div className={styles.inputContainer}>
@@ -56,3 +54,5 @@ export default function Home() {
     </div>
   )
 }
+
+Home.requireAuth = false

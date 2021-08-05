@@ -56,13 +56,6 @@
   width: 50%;
   min-height: 100%;
 }
-.formRight button {
-  width: fit-content;
-  border: none;
-  background-color: #261b17;
-  color: white;
-  padding: 0.5em;
-}
 .formRight hr {
   width: 80%;
   margin: 0;
@@ -85,7 +78,7 @@
 @media (max-height:900px) and (max-width:900px) {
   .login {
     margin: 0.25em;
-    width: 90%;
+    width: 95%;
     height: 60%;
     display: flex;
     color: white;
